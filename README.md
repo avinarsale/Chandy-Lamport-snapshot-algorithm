@@ -11,5 +11,5 @@ Compilation and execution:
 3. This should generate .pb files. Run "make". 
 4. Once binary file has been created run branch with bash script as "bash branch.sh <branch_name> <port#>"
 5. Create branches.txt file make sure you have content matching with branch instances before running controller. 
-6. Run controller with bash script as "bash controller.sh <amount#> branches.txt"
+6. Run controller with bash script as "bash controller.sh <amount#> branches.txt" (branches.txt contains all branch details in format of: branch_name branch_ip branch_port)
 7. Open new window so controller logs will be easy to read.
